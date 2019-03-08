@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.settipalli.medium</string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>connections</key>
+	<dict/>
+	<key>createdby</key>
+	<string>Santhoshkumar Settipalli</string>
+	<key>description</key>
+	<string>Displays link to a list of articles that are part of a predefined set of stories on medium.com</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Medium</string>
+	<key>objects</key>
+	<array/>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict/>
+	<key>webaddress</key>
+	<string>https://github.com/settipalli/medium-alfred-workflow</string>
+</dict>
+</plist>
