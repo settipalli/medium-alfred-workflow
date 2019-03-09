@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.settipalli.medium</string>
+	<string>com.settipalli.alfred-workflow-medium</string>
 	<key>category</key>
-	<string>Internet</string>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict/>
 	<key>createdby</key>
@@ -17,11 +17,69 @@
 	<key>name</key>
 	<string>Medium</string>
 	<key>objects</key>
-	<array/>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>medium</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Fetching articles ..</string>
+				<key>script</key>
+				<string>query="{query}"
+
+python medium.py $query</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Show recent articles published on medium.com</string>
+				<key>title</key>
+				<string>Medium</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>274373A7-6EAF-4C03-9D6D-14E834B38270</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
-	<dict/>
+	<dict>
+		<key>274373A7-6EAF-4C03-9D6D-14E834B38270</key>
+		<dict>
+			<key>xpos</key>
+			<integer>250</integer>
+			<key>ypos</key>
+			<integer>200</integer>
+		</dict>
+	</dict>
 	<key>webaddress</key>
 	<string>https://github.com/settipalli/medium-alfred-workflow</string>
 </dict>
